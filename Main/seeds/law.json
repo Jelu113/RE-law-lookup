@@ -2,23 +2,24 @@
     {
         "R162-2f-401a": {
             "sectionHeading": "Affirmative Duties Required of Licensed Individuals",
+            "lincesee-shall": "An individual licensee shall: ",
             "1": {
-                "text": "An individual licensee shall: ",
+                "text": "uphold the following fiduciary duties in the course of representing a principal",
                 "citation": "R162-2f-401a(1)",
                 "a": {
                     "text": "loyalty, which obligates the agent to place the best interests of the principal above any other interest, including the agent's own;",
                     "citation": "R162-2f-401a(1)(a)",
-                    "keyword": ""
+                    "keyword": "Loyalty"
                 },
                 "b": {
                     "text": "obedience, which obligates the agent to obey any lawful instructions from the principal;",
                     "citation": "R162-2f-401a(1)(b)",
-                    "keyword": ""
+                    "keyword": "Obedience"
                 },
                 "c": {
                     "text": "full disclosure, which obligates the agent to inform the principal of any material fact the agent learns about:",
                     "citation": "R162-2f-401a(1)(c)",
-                    "keyword": "",
+                    "keyword": "Disclosure",
                     "i": {
                         "text": "the other party; or",
                         "citation": "R162-2f-401a(1)(c)(i)",
@@ -33,450 +34,451 @@
                 "d": {
                     "text": "confidentiality, which prohibits the agent from disclosing, without permission, any information given to the agent by the principal that would likely weaken the principal's bargaining position if it were known, but excepting any known material fact concerning:",
                     "citation": "R162-2f-401a(1)(d)",
+                    "keyword" : "Confidentiality",
                     "i": {
                         "text": "a defect in the property; or",
                         "citation": "R162-2f-401a(1)(d)(i)",
-                        "keyword": ""
+                        "keyword": "Defect"
                     },
                     "ii": {
                         "text": "the client's ability to perform on the contract;",
                         "citation": "R162-2f-401a(1)(d)(ii)",
-                        "keyword": ""
+                        "keyword": "Perform"
                     }
                 },
                 "e": {
                     "text": "reasonable care and diligence;",
                     "citation": "R162-2f-401a(1)(e)",
-                    "keyword": ""
+                    "keyword": "Reasonable care"
                 },
                 "f": {
                     "text": "holding safe and accounting for any money or property entrusted to the agent; and",
                     "citation": "R162-2f-401a(1)(f)",
-                    "keyword": ""
+                    "keyword": "Accounting for money"
                 },
                 "g": {
                     "text": "any additional duties created by the agency agreement;",
                     "citation": "R162-2f-401a(1)(g)",
-                    "keyword": ""
+                    "keyword": "Additional duties"
                 }
             },
             "2": {
                 "text": "define the scope of the individual's agency by executing execute a written agency agreement between the individual and the individual's principal, including:",
                 "citation": "R162-2f-401a(2)",
-                "keyword": "",
+                "keyword": "Agency",
                 "a": {
                     "text": "sellers the individual represents;",
-                    "citation": "",
-                    "keyword": ""
+                    "citation": "R162-2f-401a(2)(a)",
+                    "keyword": "Sellers Agency"
                 },
                 "b": {
                     "text": "buyers the individual represents;",
-                    "citation": "",
-                    "keyword": ""
+                    "citation": "R162-2f-401a(2)(b)",
+                    "keyword": "Buyers Agency"
                 },
                 "c": {
                     "text": "buyers and sellers the individual represents as a limited agent in the same transaction pursuant to Subsection (4);",
-                    "citation": "",
-                    "keyword": ""
+                    "citation": "R162-2f-401a(2)(c)",
+                    "keyword": "Limited Agency"
                 },
                 "d": {
                     "text": "the owner of a property for which the individual will provide property management services; and",
-                    "citation": "",
-                    "keyword": ""
+                    "citation": "R162-2f-401a(2)(d)",
+                    "keyword": "PM owner"
                 },
                 "e": {
                     "text": "a tenant whom the individual represents;",
-                    "citation": "",
-                    "keyword": ""
+                    "citation": "R162-2f-401a(2)(e)",
+                    "keyword": "PM tenant"
                 }
             },
             "3": {
                 "text": "if representing both principals in a transaction as a limited agent, obtain prior informed consent by:",
-                "citation": "",
-                "keyword": "",
+                "citation": "R162-2f-401a(3)",
+                "keyword": "Limited Agency consent",
                 "a": {
                     "text": "clearly explaining in writing to both parties:",
-                    "citation": "",
-                    "keyword": "",
+                    "citation": "R162-2f-401a(3)(a)",
+                    "keyword": "Limited Agency in writing",
                     "i": {
                         "text": "that each may be represented by a separate agent;",
-                        "citation": "",
-                        "keyword": ""
+                        "citation": "R162-2f-401a(3)(b)",
+                        "keyword": "Explain Limited Agency"
                     },
                     "ii": {
                         "text": "the type of information that will be held confidential;",
-                        "citation": "",
-                        "keyword": ""
+                        "citation": "R162-2f-401a(3)(a)(ii)",
+                        "keyword": "Limited type of confidentiality"
                     },
                     "iii": {
                         "text": "the type of information that will be disclosed; and",
-                        "citation": "",
-                        "keyword": ""
+                        "citation": "R162-2f-401a(3)(a)(iii)",
+                        "keyword": "Limited Disclosure"
                     },
                     "iv": {
                         "text": "the circumstances under which the withholding of information would constitute a material misrepresentation regarding the property or regarding the abilities of the parties to fulfill their obligations;",
-                        "citation": "",
-                        "keyword": ""
+                        "citation": "R162-2f-401a(3)(a)(iv)",
+                        "keyword": "Limited misrepresentation"
                     }
                 },
                 "b": {
                     "text": "obtaining a written acknowledgment from each party affirming that the party waives the right to:",
-                    "citation": "",
-                    "keyword": "",
+                    "citation": "R162-2f-401a(3)(b)",
+                    "keyword": "Limited waiver",
                     "i": {
                         "text": "undivided loyalty;",
-                        "citation": "",
-                        "keyword": ""
+                        "citation": "R162-2f-401a(3)(b)(i)",
+                        "keyword": "Limited Loyalty"
                     },
                     "ii": {
                         "text": "absolute confidentiality; and",
-                        "citation": "",
-                        "keyword": ""
+                        "citation": "R162-2f-401a(3)(b)(ii)",
+                        "keyword": "Limited Confidentiality"
                     },
                     "iii": {
                         "text": "full disclosure from the licensee; and",
-                        "citation": "",
-                        "keyword": ""
+                        "citation": "R162-2f-401a(3)(b)(iii)",
+                        "keyword": "Limited Full Disclosure"
                     }
                 },
                 "c": {
                     "text": "obtaining a written acknowledgment from each party affirming that the party understands that the licensee will act in a neutral capacity to advance the interests of each party;",
-                    "citation": "",
-                    "keyword": ""
+                    "citation": "R162-2f-401a(3)(c)",
+                    "keyword": "Nuetral Agent"
                 }
             },
             "4": {
                 "text": "when acting under a limited agency agreement:",
-                "citation": "",
-                "keyword": "",
+                "citation": "R162-2f-401a(4)",
+                "keyword": "Actions as Limited Agent",
                 "a": {
                     "text": "act as a neutral third party; and",
-                    "citation": "",
-                    "keyword": ""
+                    "citation": "R162-2f-401a(4)(a)",
+                    "keyword": "Nuetral third party"
                 },
                 "b": {
                     "text": "uphold the following fiduciary duties to both parties:",
-                    "citation": "",
-                    "keyword": "",
+                    "citation": "R162-2f-401a(4)(b)",
+                    "keyword": "Limited fiduciary",
                     "i": {
                         "text": "obedience, which obligates the limited agent to obey any lawful instructions from the parties, consistent with the agent's duty of neutrality;",
-                        "citation": "",
-                        "keyword": ""
+                        "citation": "R162-2f-401a(4)(b)(i)",
+                        "keyword": "Limited obedience"
                     },
                     "ii": {
                         "text": "reasonable care and diligence;",
-                        "citation": "",
-                        "keyword": ""
+                        "citation": "R162-2f-401a(4)(b)(ii)",
+                        "keyword": "Limited Care"
                     },
                     "iii": {
                         "text": "holding safe any money or property entrusted to the limited agent; and",
-                        "citation": "",
-                        "keyword": ""
+                        "citation": "R162-2f-401a(4)(b)(iii)",
+                        "keyword": "Limited safe money"
                     },
                     "iv": {
                         "text": "any additional duties created by the agency agreement;",
-                        "citation": "",
-                        "keyword": ""
+                        "citation": "R162-2f-401a(4)(b)(iv)",
+                        "keyword": "Limited additional duties"
                     }
                 }
             },
             "5": {
                 "text": "When making an offer or solicitation to buy, sell, lease or rent real property as a principal, either directly or indirectly, or as an agent for a client, a licensee shall disclose in the initial contact with the other party the fact that the licensee holds a license with the division, whether the license status is active or inactive;",
-                "citation": "",
-                "keyword": ""
+                "citation": "R162-2f-401a(5)",
+                "keyword": "Agent Disclosure first contact"
             },
             "6": {
                 "text": "before the execution of a binding purchase or lease agreement, disclose in writing to clients, agents for other parties, and unrepresented parties:",
-                "citation": "",
-                "keyword": "",
+                "citation": "R162-2f-401a(6)",
+                "keyword": "Agent Disclosure before execution",
                 "a": {
                     "text": "the licensee's position as a principal in any transaction where the licensee operates either directly or indirectly to buy, sell, lease, or rent real property;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(6)(a)",
                     "keyword": ""
                 },
                 "b": {
                     "text": "the fact that the licensee holds a license with the division, whether the license status is active or inactive, in any circumstance where the licensee is a principal in an agreement to buy, sell, lease, or rent real property;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(6)(b)",
                     "keyword": ""
                 },
                 "c": {
                     "text": "the licensee's agency relationships; and",
-                    "citation": "",
+                    "citation": "R162-2f-401a(6)(c)",
                     "keyword": ""
                 },
                 "d": {
                     "i": {
                         "text": "the existence or possible existence of a due-on-sale clause in an underlying encumbrance on real property; and",
-                        "citation": "",
+                        "citation": "R162-2f-401a(6)(d)(i)",
                         "keyword": ""
                     },
                     "ii": {
                         "text": "the potential consequences of selling or purchasing a property without obtaining the authorization of the holder of an underlying encumbrance;",
-                        "citation": "",
+                        "citation": "R162-2f-401a(6)(d)(ii)",
                         "keyword": ""
                     }
                 }
             },
             "7": {
                 "text": "before offering any property for sale or lease, make reasonable efforts to verify the accuracy and content of the information and data to be used in the marketing of the property;",
-                "citation": "",
+                "citation": "R162-2f-401a(7)",
                 "keyword": ""
             },
             "8": {
                 "text": "before offering a residential property for sale, disclose the source on which the licensee relies for any square footage data that will be used in the marketing of the property:",
-                "citation": "",
+                "citation": "R162-2f-401a(8)",
                 "keyword": "",
                 "a": {
                     "text": "in the written agreement, executed with the seller, through which the licensee acquires the right to offer the property for sale; and",
-                    "citation": "",
+                    "citation": "R162-2f-401a(8)(a)",
                     "keyword": ""
                 },
                 "b": {
                     "text": "in a written disclosure provided to the buyer, at the licensee's direction, at or before the deadline for the seller's disclosure per the contract for sale;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(8)(b)",
                     "keyword": ""
                 }
             },
             "9": {
                 "text": "upon initial contact with another agent in a transaction, disclose the agency relationship between the licensee and the client;",
-                "citation": "",
+                "citation": "R162-2f-401a(9)",
                 "keyword": ""
             },
             "10": {
                 "text": "when executing a binding agreement in a sales transaction, confirm the prior agency disclosure:",
-                "citation": "",
+                "citation": "R162-2f-401a(10)",
                 "keyword": "",
                 "a": {
                     "text": "in the currently approved Real Estate Purchase Contract; or",
-                    "citation": "",
+                    "citation": "R162-2f-401a(10)(a)",
                     "keyword": ""
                 },
                 "b": {
                     "text": "in a separate provision with substantially similar language incorporated in or attached to the binding agreement;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(10)(b)",
                     "keyword": ""
                 }
             },
             "11": {
                 "text": "when executing a lease or rental agreement, confirm the prior agency disclosure by:",
-                "citation": "",
+                "citation": "R162-2f-401a(11)",
                 "keyword": "",
                 "a": {
                     "text": "incorporating it into the agreement; or",
-                    "citation": "",
+                    "citation": "R162-2f-401a(11)(a)",
                     "keyword": ""
                 },
                 "b": {
                     "text": "attaching it as a separate document;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(11)(b)",
                     "keyword": ""
                 }
             },
             "12": {
                 "text": "if the licensee desires to act as a sub-agent for showing property owned by a seller who is under contract with another brokerage, before showing the seller's property:",
-                "citation": "",
+                "citation": "R162-2f-401a(12)",
                 "keyword": "",
                 "a": {
                     "text": "notify the listing brokerage that sub-agency is requested; and",
-                    "citation": "",
+                    "citation": "R162-2f-401a(12)(a)",
                     "keyword": ""
                 },
                 "b": {
                     "text": "enter into a written agreement with the listing brokerage with which the seller has contracted:",
-                    "citation": "",
+                    "citation": "R162-2f-401a(12)(b)",
                     "keyword": "",
                     "i": {
                         "text": "consenting to the sub-agency; and",
-                        "citation": "",
+                        "citation": "R162-2f-401a(12)(b)(i)",
                         "keyword": ""
                     },
                     "ii": {
                         "text": "defining the scope of the agency;",
-                        "citation": "",
+                        "citation": "R162-2f-401a(12)(b)(ii)",
                         "keyword": ""
                     }
                 },
                 "c": {
                     "text": "obtain from the listing brokerage any available information about the property; and",
-                    "citation": "",
+                    "citation": "R162-2f-401a(12)(c)",
                     "keyword": ""
                 },
                 "d": {
                     "text": "uphold the same fiduciary duties outlined in Subsection (1);",
-                    "citation": "",
+                    "citation": "R162-2f-401a(12)(d)",
                     "keyword": ""
                 }
             },
             "13": {
                 "text": "provide copies of a lease or purchase agreement, properly signed by each party, to the party for whom the licensee acts as an agent;",
-                "citation": "",
+                "citation": "R162-2f-401a(13)",
                 "keyword": ""
             },
             "14": {
                 "a": {
                     "text": "in identifying the seller's brokerage in paragraph 5 of the approved Real Estate Purchase Contract, use:",
-                    "citation": "",
+                    "citation": "R162-2f-401a(14)(a)",
                     "keyword": "",
                     "i": {
                         "text": "the principal broker's individual name; or",
-                        "citation": "",
+                        "citation": "R162-2f-401a(14)(a)(i)",
                         "keyword": ""
                     },
                     "ii": {
                         "text": "the principal broker's brokerage name; and",
-                        "citation": "",
+                        "citation": "R162-2f-401a(14)(a)(ii)",
                         "keyword": ""
                     }
                 },
                 "b": {
                     "text": "personally fulfill the licensee's agency relationship with the client, notwithstanding the information used to complete paragraph 5;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(14)(b)",
                     "keyword": ""
                 }
             },
             "15": {
                 "text": "timely inform the licensee's principal broker or branch broker of real estate transactions in which:",
-                "citation": "",
+                "citation": "R162-2f-401a(15)",
                 "keyword": "",
                 "a": {
                     "text": "the licensee is involved as agent or principal;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(15)(a)",
                     "keyword": ""
                 },
                 "b": {
                     "text": "the licensee has received funds on behalf of the principal broker; or",
-                    "citation": "",
+                    "citation": "R162-2f-401a(15)(b)",
                     "keyword": ""
                 },
                 "c": {
                     "text": "an offer has been written;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(15)(C)",
                     "keyword": ""
                 }
             },
             "16": {
                 "a": {
                     "text": "disclose in writing to each party to a transaction any compensation in addition to any real estate commission that will be received in connection with a real estate transaction; and",
-                    "citation": "",
+                    "citation": "R162-2f-401a(16)(a)",
                     "keyword": ""
                 },
                 "b": {
                     "text": "ensure that any such compensation is paid to the licensee's principal broker;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(16)(b)",
                     "keyword": ""
                 }
             },
             "17": {
                 "a": {
                     "text": "in negotiating and closing a transaction, a licensee may fill out those legal forms as provided for in Section 61-2f-306;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(17)(a)",
                     "keyword": ""
                 }
             },
             "18": {
                 "text": "use an approved addendum form to make a counteroffer or any other modification to a contract;",
-                "citation": "",
+                "citation": "R162-2f-401a(18)",
                 "keyword": ""
             },
             "19": {
                 "text": "before signing or initialing a document on behalf of a principal in a sales transaction:",
-                "citation": "",
+                "citation": "R162-2f-401a(19)",
                 "keyword": "",
                 "a": {
                     "text": "obtain prior written authorization in the form of a power of attorney executed by the principal;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(19)(a)",
                     "keyword": ""
                 },
                 "b": {
                     "text": "retain in the file for the transaction a copy of said power of attorney;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(19)(b)",
                     "keyword": ""
                 },
                 "c": {
                     "text": "attach said power of attorney to any document signed or initialed by the individual on behalf of the principal;",
-                    "citation": "",
+                    "citation": "R162-2f-401a(19)(c)",
                     "keyword": ""
                 },
                 "d": {
                     "text": "sign as follows: (Principal's Name) by (Licensee's Name), Attorney-in-Fact;and",
-                    "citation": "",
+                    "citation": "R162-2f-401a(19)(d)",
                     "keyword": ""
                 },
                 "e": {
                     "text": "initial as follows:  (Principal's Initials) by (Licensee's Name), Attorney-in-Fact for (Principal's Name);",
-                    "citation": "",
+                    "citation": "R162-2f-401a(19)(e)",
                     "keyword": ""
                 }
             }
         },
         "20": {
             "text": "before signing or initialing a document on behalf of a principal in a property management transaction:",
-            "citation": "",
+            "citation": "R162-2f-401a(20)",
             "keyword": "",
             "a": {
                 "text": "obtain prior written authorization executed by the principal which specifically identifies the actions that are authorized to be taken on behalf of the principal;",
-                "citation": "",
+                "citation": "R162-2f-401a(20)(a)",
                 "keyword": ""
             },
             "b": {
                 "text": "retain in the file for the transaction a copy of the written authorization;",
-                "citation": "",
+                "citation": "R162-2f-401a(20)(b)",
                 "keyword": ""
             },
             "c": {
                 "text": "sign as follows: by (Licensee's Name), on behalf of Owner; and",
-                "citation": "",
+                "citation": "R162-2f-401a(20)(c)",
                 "keyword": ""
             },
             "d": {
                 "text": "initial as follows: by (Licensee's initials), on behalf of Owner;",
-                "citation": "",
+                "citation": "R162-2f-401a(20)(d)",
                 "keyword": ""
             }
         },
         "21": {
             "text": "if employing an unlicensed individual to provide assistance in connection with real estate transactions, adhere to Section R162-2f-401g;",
-            "citation": "",
+            "citation": "R162-2f-401a(21)",
             "keyword": ""
         },
         "22": {
             "text": "strictly adhere to advertising restrictions as outlined in Section R162-2f-401h;",
-            "citation": "",
+            "citation": "R162-2f-401a(22)",
             "keyword": ""
         },
         "23": {
             "text": "as to a guaranteed sales agreement, provide full disclosure regarding the guarantee by executing a written contract that contains:",
-            "citation": "",
+            "citation": "R162-2f-401a(23)",
             "keyword": "",
             "a": {
                 "text": "the conditions and other terms under which the property is guaranteed to be sold or purchased;",
-                "citation": "",
+                "citation": "R162-2f-401a(23)(a)",
                 "keyword": ""
             },
             "b": {
                 "text": "the charges or other costs for the service or plan;",
-                "citation": "",
+                "citation": "R162-2f-401a(23)(b)",
                 "keyword": ""
             },
             "c": {
                 "text": "the price for which the property will be sold or purchased; and",
-                "citation": "",
+                "citation": "R162-2f-401a(23)(c)",
                 "keyword": ""
             },
             "d": {
                 "text": "the approximate net proceeds the seller may reasonably expect to receive;",
-                "citation": "",
+                "citation": "R162-2f-401a(23)(d)",
                 "keyword": ""
             }
         },
         "24": {
             "text": "immediately deliver money received in a real estate transaction to the principal broker for deposit; and",
-            "citation": "",
+            "citation": "R162-2f-401a(24)",
             "keyword": ""
         },
         "25": {
             "text": "as contemplated by Subsection 61-2f-401(18), when notified by the division that information or documents are required for investigation purposes, respond with the required information or documents in full and within ten business days.  The division may not bring an action for enforcement of this subsection after the expiration of four years following the occurrence of the violation.",
-            "citation": "",
+            "citation": "R162-2f-401a(25)",
             "keyword": ""
         }
     },

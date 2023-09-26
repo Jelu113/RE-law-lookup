@@ -1,17 +1,16 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Laws extends Model {}
+class Explanation extends Model {}
 
-Laws.init(
+Explanation.init(
   {
-    section_heading_id: {
+    sublaw_id: {
       type: DataTypes.STRING,
       allowNull: false,
-      autoIncrement: true,
       references: {
-        model: 'section_heading',
-        key: 'id',
+        model: 'laws',
+        key: 'sublaw_id',
       },
     },
     text: {
@@ -22,11 +21,9 @@ Laws.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    law_id: {
-      type: DataTypes.INTEGER,
+    explanation_id: {
+      type: DataTypes.STRING,
       allowNull: false,
-      primaryKey: true,
-      autoIncrement: false,
     },
   },
   {
@@ -34,8 +31,8 @@ Laws.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'laws',
+    modelName: 'explanation',
   },
 );
 
-module.exports = Laws;
+module.exports = Explanation;

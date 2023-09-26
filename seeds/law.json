@@ -10,6 +10,7 @@
                     "text": "loyalty, which obligates the agent to place the best interests of the principal above any other interest, including the agent's own;",
                     "citation": "R162-2f-401a(1)(a)",
                     "keyword": "Loyalty"
+                    "SectionHeadingId": "1"
                 },
                 "b": {
                     "text": "obedience, which obligates the agent to obey any lawful instructions from the principal;",
@@ -486,7 +487,7 @@
 
  {
         "R162-2f-401b": {
-            "sectionHeading": "Prohibited Conduct As Applicable to Licensed Individuals",
+            "sectionHeaR162-2f-401bding": "Prohibited Conduct As Applicable to Licensed Individuals",
             "1": {
                 "text": "An individual licensee may not: ",
                 "citation": "R162-2f-401b(1)",
@@ -497,6 +498,7 @@
                         "text": "fails to conform with accepted standards of the real estate sales, leasing, or management industries;",
                         "citation": "R162-2f-401b(1)(a)(i)",
                         "keyword": ""
+                        "SectionHeadingID":'2'
                     },
                     "ii": {
                         "text": "could jeopardize the public health, safety, or welfare; or",

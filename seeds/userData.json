@@ -1,23 +1,23 @@
 [
   {
     "name": "Jenae",
-    "email": "jenaehe@yahoo.com"
-    
+    "email": "jenaehe@yahoo.com",
+    "password": "password12345"
   },
   {
     "name": "Jon",
-    "email": "lernantino@gmail.com"
-    
+    "email": "lernantino@gmail.com",
+    "password": "password12345"
   },
   {
     "name": "Nate",
-    "email": "amiko2k20@aol.com"
-    
+    "email": "ngreeff@hotmail.com",
+    "password": "password12345"
   },
   {
     "name": "Max",
-    "email": "amiko2k20@aol.com"
-    
+    "email": "amiko2k20@aol.com",
+    "password": "password12345"
   }
 
 ]

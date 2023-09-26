@@ -1,8 +1,6 @@
 const sequelize = require('../config/connection');
-const { User, Project } = require('../models');
-
+const { User, Password } = require('../models');
 const userData = require('./userData.json');
-const projectData = require('./projectData.json');
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
@@ -11,15 +9,15 @@ const seedDatabase = async () => {
     individualHooks: true,
     returning: true,
   });
-
-  for (const project of projectData) {
-    await Project.create({
-      ...project,
-      user_id: users[Math.floor(Math.random() * users.length)].id,
-    });
-  }
+  
+  await Password.bulkCreate(
+    userData.map(user => ({
+      password: user.password,
+      user_id: users.find(u => u.email === user.email).id
+    }))
+  );
 
   process.exit(0);
-};
+}
 
 seedDatabase();

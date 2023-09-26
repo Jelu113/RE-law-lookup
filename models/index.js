@@ -1,7 +1,7 @@
 const User = require('./User');
 const Password = require('./Password');
-const SectionHeading = require('./SectionHeading');
-const Laws = require('./Laws');
+// const SectionHeading = require('./SectionHeading');
+// const Laws = require('./Laws');
 
 
 
@@ -14,8 +14,8 @@ Password.belongsTo(User, {
   foreignKey: 'user_id'
 });
 
-SectionHeading.hasMany(Laws, {
-  foreignKey: 'section_heading_id'
-});
+// SectionHeading.hasMany(Laws, {
+//   foreignKey: 'section_heading_id'
+// });
 
 module.exports = { User, Password };

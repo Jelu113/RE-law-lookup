@@ -4,20 +4,21 @@
   --link-hover-color: lightblue;
   --nav-text-color: #1a89bc;
   --main-background-color: #f4f4f4;
+  --nav-text-color: #fff;
 }
 
 body {
   overflow-x: hidden;
 }
 
-/* Nav */
+/* Header */
 header {
   display: flex;
+  align-items: center;
   background-color: var(--nav-color);
   padding: 1rem;
   user-select: none;
   text-decoration: none;
-  color: var(--nav-text-color);
 }
 
 nav {
@@ -33,14 +34,17 @@ nav a {
 }
 
 header h3 a img {
-  width: 50px;
-  height: 50px;
-  margin-left: 10px;
-  margin-top: 10%
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
 }
 
 header h3 a, header nav a {
+  display: flex;
+  align-items: center;
   transition: all 0.3s ease-in-out;
+  font-size: 1.6rem;
+  color: var(--nav-text-color);
   &:hover {
     text-decoration: none;
     color: var(--link-hover-color);

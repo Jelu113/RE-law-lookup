@@ -1,42 +1,72 @@
-<div class="row">
-  <div class="col-md-6">
-    <h2>Login</h2>
+<!DOCTYPE html>
+<html lang="en">
 
-    <form class="form login-form">
-      <div class="form-group">
-        <label for="email-login">email:</label>
-        <input class="form-input" type="text" id="email-login" />
-      </div>
-      <div class="form-group">
-        <label for="password-login">password:</label>
-        <input class="form-input" type="password" id="password-login" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">login</button>
-      </div>
-    </form>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/login.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+
+<body>
+
+
+  {{!-- <form class="form signup-form">
+    <div class="form-group">
+      <label for="name-signup">name:</label>
+      <input class="form-input" type="text" id="name-signup" />
+    </div>
+    <div class="form-group">
+      <label for="email-signup">email:</label>
+      <input class="form-input" type="text" id="email-signup" />
+    </div>
+    <div class="form-group">
+      <label for="password-signup">password:</label>
+      <input class="form-input" type="password" id="password-signup" />
+    </div>
+    <div class="form-group">
+      <button class="btn btn-primary" type="submit">signup</button>
+    </div>
+  </form>
   </div>
-  <div class="col-md-6">
-    <h2>Signup</h2>
+  </div> --}}
 
-    <form class="form signup-form">
-      <div class="form-group">
-        <label for="name-signup">name:</label>
-        <input class="form-input" type="text" id="name-signup" />
-      </div>
-      <div class="form-group">
-        <label for="email-signup">email:</label>
-        <input class="form-input" type="text" id="email-signup" />
-      </div>
-      <div class="form-group">
-        <label for="password-signup">password:</label>
-        <input class="form-input" type="password" id="password-signup" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">signup</button>
-      </div>
-    </form>
-  </div>
-</div>
 
-<script src="./js/login.js"></script>
+  <main class="main">
+    <section class="login-section">
+      <h1>Log-in</h1>
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="e.g Alex Smith">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+        </div>
+      </div>
+      <button id="login-btn">
+        Button
+      </button>
+      <div class="create-forgot">
+        <a href="#">Forgot password?</a>
+        <a href="#">New? Create an Account</a>
+      </div>
+
+    </section>
+  </main>
+
+
+  <script src="./js/login.js"></script>
+
+
+</body>
+
+</html>

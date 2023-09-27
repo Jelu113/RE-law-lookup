@@ -5,12 +5,12 @@ class Sublaw extends Model {}
 
 Sublaw.init(
   {
-    law_id: {
-      type: DataTypes.STRING,
+    laws_id: {
+      type: DataTypes.INTEGER,
       allowNull: false,
       references: {
         model: 'laws',
-        key: 'law_id',
+        key: 'id',
       },
     },
     text: {
@@ -21,9 +21,10 @@ Sublaw.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    sublaw_id: {
-      type: DataTypes.STRING,
+    id: {
+      type: DataTypes.INTEGER,
       allowNull: false,
+      primaryKey: true,
     },
   },
   {

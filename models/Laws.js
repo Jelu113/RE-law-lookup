@@ -5,8 +5,14 @@ class Laws extends Model {}
 
 Laws.init(
   {
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: false,
+    },
     section_heading_id: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
       allowNull: false,
       autoIncrement: true,
       references: {
@@ -22,11 +28,12 @@ Laws.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    law_id: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      primaryKey: true,
-      autoIncrement: false,
+    keyword_id: {
+        type: DataTypes.INTEGER,
+        references: {
+            model: 'keyword',
+            key: 'id',
+      },
     },
   },
   {

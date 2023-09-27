@@ -8,40 +8,37 @@
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
-
-<body>
-  <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h3>
+  <body>
+    <div class="flex-column justify-space-around">
+      <header class="display-flex justify-space-between align-center p-2">
+        <h3>
+          <a href="/">
+            <img src="./img/law icon.png"></img> RE-Law-Lookup
+          </a>
+        </h3>
+        <nav>
+          <!-- Conditionally render login or logout links -->
+          <a href="/#Laws">Laws</a>
+          {{#if logged_in}}
+          <a href="/profile">profile</a> |
+          <button class="no-button" id="logout">logout</button>
+          {{else}}
+          <a href="/login">login</a>
+          {{/if}}
+        </nav>
+      </header>
+      <main>
+        <!-- Render the sub layout -->
+        {{{ body }}}
+      </main>
+      <footer>
         
-        <a href="/">
-          <span role="img" aria-label="law">⚖️</span>RE-Law-Lookup
-        </a>
-      </h3>
-      <nav>
-        <!-- Conditionally render login or logout links -->
-        <a href="/#Laws">Laws</a>
-        {{#if logged_in}}
-        <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
-      </nav>
-    </header>
-    <main>
-      <!-- Render the sub layout -->
-      {{{ body }}}
-    </main>
-    <footer>
-      
-    </footer>
-  </div>
+      </footer>
+    </div>
 
-  <!-- Render script for logged in users only -->
-  {{#if logged_in}}
-  <script src="/js/logout.js"></script>
-  {{/if}}
-</body>
-
+    <!-- Render script for logged in users only -->
+    {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+    {{/if}}
+  </body>
 </html>

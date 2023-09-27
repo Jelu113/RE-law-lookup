@@ -12,9 +12,9 @@ body {
 
 /* Nav */
 header {
+  display: flex;
   background-color: var(--nav-color);
   padding: 1rem;
-  text-align: center;
   user-select: none;
   text-decoration: none;
   color: var(--nav-text-color);
@@ -28,11 +28,15 @@ nav {
 }
 
 nav a {
-  display: flex;
-  flex-direction: row;
   margin-left: 3%;
   font-size: 1.3rem;
-  padding-right: 10px;
+}
+
+header h3 a img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10%
 }
 
 header h3 a, header nav a {

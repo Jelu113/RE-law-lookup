@@ -23,13 +23,16 @@ header {
 nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 40%;
+  height: 80px;
   max-width: 1200px;
 }
 
 nav a {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-left: 3%;
   font-size: 1.3rem;
   padding-right: 10px;
@@ -52,4 +55,13 @@ main {
   margin: 0 auto;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+footer {
+  height: 100px;
+  align-items: center;
+  list-style-type: none;
+  display: flex;
+  background-color: #333;
+  gap: 100px;
 }

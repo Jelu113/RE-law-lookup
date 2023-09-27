@@ -1,16 +1,12 @@
 body {
-  height: auto;
+  overflow-y: hidden;
 }
 
 .main{
-  margin: 0;
-  padding: 0;
-  height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(231, 18, 18) !important;
-  height: auto;
+
 }
 
 .welcome-sec {
@@ -24,7 +20,7 @@ body {
   background-attachment: fixed ;
   background-repeat: no-repeat;
   height: 550px;
-  width: 100%;
+  /* width: 100%; */
 }
 .welcome-box {
   /* border: solid 2px black; */
@@ -60,8 +56,9 @@ h2 {
   background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
-  padding-top: 120px;
-  height: 400px;
+  /* padding-top: 120px; */
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
 }
 
@@ -70,4 +67,9 @@ h2 {
   gap:50px;
 
   
+}
+
+
+footer p{
+color: black;
 }

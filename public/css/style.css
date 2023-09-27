@@ -14,9 +14,8 @@ body {
 /* Header */
 header {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   background-color: var(--nav-color);
-  padding: 1rem;
   user-select: none;
   text-decoration: none;
 }
@@ -24,7 +23,7 @@ header {
 nav {
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 20%;
   max-width: 1200px;
 }
 

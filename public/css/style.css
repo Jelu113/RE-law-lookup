@@ -60,3 +60,12 @@ main {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+
+footer {
+  height: 100px;
+  align-items: center;
+  list-style-type: none;
+  display: flex;
+  background-color: #333;
+  gap: 100px;
+}

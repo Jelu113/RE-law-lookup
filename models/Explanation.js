@@ -6,11 +6,11 @@ class Explanation extends Model {}
 Explanation.init(
   {
     sublaw_id: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: 'laws',
-        key: 'sublaw_id',
+        model: 'sublaw',
+        key: 'id',
       },
     },
     text: {
@@ -21,9 +21,10 @@ Explanation.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    explanation_id: {
-      type: DataTypes.STRING,
+    id: {
+      type: DataTypes.INTEGER,
       allowNull: false,
+      primaryKey: true,
     },
   },
   {

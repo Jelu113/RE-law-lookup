@@ -3,7 +3,7 @@ const sequelize = require('../config/connection');
 
 class SectionHeading extends Model {}
 
-Keyword.init(
+SectionHeading.init(
   {
     id: {
       type: DataTypes.INTEGER,

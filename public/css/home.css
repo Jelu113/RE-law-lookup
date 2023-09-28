@@ -19,7 +19,7 @@ body {
   background-position: center;
   background-attachment: fixed ;
   background-repeat: no-repeat;
-  height: 550px;
+  height: 700px;
 }
 .welcome-box {
   /* border: solid 2px black; */
@@ -28,14 +28,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 350px;
-  width: 600px;
-  background-color: rgb(248, 248, 248);
-  opacity: 95%;
+  height: 300px;
+  width: 500px;
+  background-color: rgb(248, 248, 248, 0.7);
   @media screen and (max-width: 600px) {
     width: 100%;
-  }
-    
+  }    
 }
 
 

@@ -44,8 +44,8 @@ header h3 a, header nav a {
   transition: all 0.3s ease-in-out;
   font-size: 1.6rem;
   color: var(--nav-text-color);
+  text-decoration: none;
   &:hover {
-    text-decoration: none;
     color: var(--link-hover-color);
   }
 

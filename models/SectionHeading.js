@@ -9,11 +9,18 @@ SectionHeading.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: false,
+      autoIncrement: true,
     },
     section_heading_name: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
+    },
+    keyword_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'keyword',
+        key: 'id',
+      },
     },
   },
   {

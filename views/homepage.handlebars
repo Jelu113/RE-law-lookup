@@ -21,7 +21,7 @@
 <main class="main">
   <section class="welcome-sec">
     <div class="welcome-box">
-    <h1>RE Law Lookup</h1>
+    <h1>Administrative Rules</h1>
     <p>Find Laws With Any Keyword</p>
     <div class="dropdown is-hoverable">
       <div class="dropdown-trigger">
@@ -34,27 +34,11 @@
       </div>
       <div class="dropdown-menu" id="dropdown-menu3" role="menu">
         <div class="dropdown-content">
+          {{#each keywords as |keyword|}}
           <a href="#" class="dropdown-item">
-            Small Business
+            {{keyword.keyword}}
           </a>
-          <a href="#" class="dropdown-item">
-            Real Estate
-          </a>
-          <a href="#" class="dropdown-item">
-            Property
-          </a>
-          <a href="#" class="dropdown-item">
-            Crime
-          </a>
-          <a href="#" class="dropdown-item">
-            Option
-          </a>
-          <a href="#" class="dropdown-item">
-            Option
-          </a>
-          <a href="#" class="dropdown-item">
-            Option
-          </a>
+          {{/each}}
           <hr class="dropdown-divider">
           <a href="#" class="dropdown-item">
             More

@@ -5,9 +5,15 @@ class Sublaw extends Model {}
 
 Sublaw.init(
   {
-    laws_id: {
+    id: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+    laws_id: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
       references: {
         model: 'laws',
         key: 'id',
@@ -19,12 +25,14 @@ Sublaw.init(
     },
     citation: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
-    id: {
+    keyword_id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
-      primaryKey: true,
+      references: {
+        model: 'keyword',
+        key: 'id',
+      },
     },
   },
   {
@@ -33,7 +41,7 @@ Sublaw.init(
     freezeTableName: true,
     underscored: true,
     modelName: 'sublaw',
-  },
+  }
 );
 
 module.exports = Sublaw;

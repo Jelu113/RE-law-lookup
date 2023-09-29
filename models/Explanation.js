@@ -5,6 +5,12 @@ class Explanation extends Model {}
 
 Explanation.init(
   {
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
     sublaw_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -19,12 +25,14 @@ Explanation.init(
     },
     citation: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
-    id: {
+    keyword_id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
-      primaryKey: true,
+      references: {
+        model: 'keyword',
+        key: 'id',
+      },
     },
   },
   {
@@ -33,7 +41,7 @@ Explanation.init(
     freezeTableName: true,
     underscored: true,
     modelName: 'explanation',
-  },
+  }
 );
 
 module.exports = Explanation;

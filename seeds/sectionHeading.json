@@ -1,14 +1,8 @@
 [
     {
-        "R162-2f-401a": {
-            "sectionHeading": "Affirmative Duties Required of Licensed Individuals",
-            "licensee-shall": "An individual licensee shall: "
-        }
+        "section_heading_name": "R162-2f-401a: Affirmative Duties Required of Licensed Individuals An individual licensee shall:"
     },
     {
-        "R162-2f-401b": {
-            "sectionHeaR162-2f-401bding": "Prohibited Conduct As Applicable to Licensed Individuals",
-            "licensee-shall-not": "An individual licensee may not: "
-        }
+        "section_heading_name": "R162-2f-401b: Prohibited Conduct As Applicable to Licensed Individuals An individual licensee may not:"
     }
 ]

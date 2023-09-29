@@ -22,13 +22,33 @@ router.get('/', async (req, res) => {
 
 });
 
-router.get('/testing/:id', async (req, res) => {
+router.get('/keywords', async (req, res) => {
+  try {
+    // Get all keywords from the Keyword table
+    const keywordData = await Keyword.findAll();
+    console.log(keywordData);
+
+    // Serialize data so the template can read it
+    const keywords = keywordData.map((keyword) => keyword.get({ plain: true }));
+
+    // Pass serialized data and session flag into template
+    res.render('keywords', { 
+      keywords, 
+      logged_in: req.session.logged_in 
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+
+});
+
+router.get('/keywords/:id', async (req, res) => {
   try {
     const keywordData = await Keyword.findByPk(req.params.id);
 
     const keyword = keywordData.get({ plain: true });
 
-    res.render('testing', {
+    res.render('keyword', {
       ...keyword,
       logged_in: req.session.logged_in
     });

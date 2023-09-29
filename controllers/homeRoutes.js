@@ -22,6 +22,21 @@ router.get('/', async (req, res) => {
 
 });
 
+router.get('/testing/:id', async (req, res) => {
+  try {
+    const keywordData = await Keyword.findByPk(req.params.id);
+
+    const keyword = keywordData.get({ plain: true });
+
+    res.render('testing', {
+      ...keyword,
+      logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route

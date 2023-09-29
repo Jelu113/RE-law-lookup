@@ -1,0 +1,43 @@
+
+  main {
+    padding-top: 50px;
+  }
+
+.results-container {
+  /* padding: 50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 40px !important;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
+  border: solid 2px black;
+  padding: 50px;
+  height: auto;
+  width: 90vw;
+}
+
+h2 {
+  font-size: 28px !important;
+}
+
+.laws {
+  padding-bottom: 40px;
+}
+
+button {
+  margin-top: 50px !important;
+  width: 150px;
+  padding: 5px;
+
+}

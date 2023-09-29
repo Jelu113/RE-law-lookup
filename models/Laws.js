@@ -20,7 +20,7 @@ Laws.init(
       },
     },
     text: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: true,
     },
     citation: {

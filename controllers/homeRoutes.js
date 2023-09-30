@@ -34,7 +34,7 @@ router.get('/keywords', async (req, res) => {
     // Pass serialized data and session flag into template
     res.render('keywords', { 
       keywords, 
-      logged_in: req.session.logged_in 
+      logged_in: req.session.logged_in
     });
   } catch (err) {
     res.status(500).json(err);
@@ -75,8 +75,23 @@ router.get('/register', (req, res) => {
   res.render('register');
 });
 
-router.get('/laws', (req, res) => {
-  res.render('laws');
+router.get('/laws', async (req, res) => {
+  try {
+    // Get all keywords from the Keyword table
+    const keywordData = await Keyword.findAll();
+    console.log(keywordData);
+
+    // Serialize data so the template can read it
+    const keywords = keywordData.map((keyword) => keyword.get({ plain: true }));
+  
+    res.render('laws', { 
+      keywords, 
+      logged_in: req.session.logged_in 
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+
 });
 
 module.exports = router;

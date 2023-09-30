@@ -26,7 +26,6 @@ header {
     height: 100px;
     flex-direction: column;
     align-items: end;
-    
   }
 }
 
@@ -70,18 +69,18 @@ header h3 a, header nav a {
 /* Main */
 main {
   background-color: var(--main-background-color);
-  height: 95vh;
   width: 100vw;
   margin: 0 auto;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
 
-footer {
-  height: 100px;
-  align-items: center;
-  list-style-type: none;
-  display: flex;
-  background-color: #333;
-  gap: 100px;
+.keywordInfo {
+  margin-left: 10px;
+  font: 1.2rem 'Roboto', sans-serif;
+}
+
+.kwLabel {
+  font-weight: bold;
+  user-select: none;
 }

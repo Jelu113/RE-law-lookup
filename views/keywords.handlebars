@@ -1,9 +1,3 @@
 {{#each keywords as |keyword|}}
-<br>
-<div>
-    Keyword: {{keyword.keyword}}<br>
-    Additional Text: {{keyword.additionalText}}<br>
-    Statutes URL: <a href="{{keyword.statutesUrl}}">{{keyword.statutesUrl}}</a>
-</div>
-
+<br>{{>keyword-layout}}<br>
 {{/each}}

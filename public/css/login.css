@@ -35,7 +35,7 @@ h1 {
   gap: 10px;
 }
 
-#login-btn {
+#login-btn  {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -44,7 +44,11 @@ h1 {
   height: 40px;
   width: 200px;
   background-color: rgb(211, 214, 229);
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  &:hover {
+    background-color: grey;
+  }
 }
-#login-btn:hover {
-  background-color: grey;
-}
+

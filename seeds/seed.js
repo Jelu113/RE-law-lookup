@@ -14,17 +14,10 @@ const sublaw = require('./sublaw.json');
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 
-  const users = await User.bulkCreate(userData, {
+await User.bulkCreate(userData, {
     individualHooks: true,
     returning: true,
   });
-  
-  // await Password.bulkCreate(
-  //   userData.map(user => ({
-  //     password: user.password,
-  //     user_id: users.find(u => u.email === user.email).id
-  //   }))
-  //);
 
   await Explanation.bulkCreate(explanation, {
     individualHooks: true,

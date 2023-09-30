@@ -1,5 +1,5 @@
 const sequelize = require('../config/connection');
-const { User, Password, Explanation, Keyword, Laws, SectionHeading, Sublaw} = require('../models');
+const { User, Explanation, Keyword, Laws, SectionHeading, Sublaw} = require('../models');
 const userData = require('./userData.json');
 const explanation = require('./explanation.json');
 const keyword = require('./keyword.json');
@@ -19,12 +19,12 @@ const seedDatabase = async () => {
     returning: true,
   });
   
-  await Password.bulkCreate(
-    userData.map(user => ({
-      password: user.password,
-      user_id: users.find(u => u.email === user.email).id
-    }))
-  );
+  // await Password.bulkCreate(
+  //   userData.map(user => ({
+  //     password: user.password,
+  //     user_id: users.find(u => u.email === user.email).id
+  //   }))
+  //);
 
   await Explanation.bulkCreate(explanation, {
     individualHooks: true,

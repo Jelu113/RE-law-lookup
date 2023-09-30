@@ -1,5 +1,4 @@
 const User = require('./User');
-const Password = require('./Password');
 const SectionHeading = require('./SectionHeading');
 const Laws = require('./Laws');
 const Sublaw = require('./Sublaw');
@@ -9,14 +8,7 @@ const Keyword = require('./Keyword');
 
 
 
-User.hasOne(Password, {
- // foreignKey: 'user_id',
-  onDelete: 'CASCADE'
-});
 
-Password.belongsTo(User, {
-//  foreignKey: 'user_id'
-});
 
 //SectionHeading.hasMany(Laws, {
 //  foreignKey: 'section_heading_id'
@@ -40,4 +32,4 @@ Keyword.hasMany(Laws, {
 
 
 
-module.exports = { User, Password, SectionHeading, Laws, Sublaw, Explanation, Keyword};
+module.exports = { User, SectionHeading, Laws, Sublaw, Explanation, Keyword};

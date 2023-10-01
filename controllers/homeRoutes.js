@@ -90,9 +90,6 @@ router.get('/laws', async (req, res) => {
 
 });
 
-router.get('/profile', (req,res)=> {
-  res.render('profile');
-});
 
 router.get('/keywords', (req,res)=> {
   res.render('keywords');

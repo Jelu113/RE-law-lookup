@@ -18,7 +18,7 @@
         </h3>
         <nav>
           <!-- Conditionally render login or logout links -->
-          <a href="/#Laws">Laws</a>
+          <a href="/laws">Laws</a>
           {{#if logged_in}}
           <a href="/profile">profile</a> |
           <button class="no-button" id="logout">Logout</button>
@@ -31,8 +31,10 @@
         <!-- Render the sub layout -->
         {{{ body }}}
       </main>
+
+
       <footer>
-        
+      <h1>div</h1>  
       </footer>
     <!-- Render script for logged in users only -->
     {{#if logged_in}}

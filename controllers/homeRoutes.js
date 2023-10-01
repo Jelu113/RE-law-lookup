@@ -44,4 +44,8 @@ router.get('/laws', (req, res) => {
   res.render('laws');
 });
 
+router.get('/profile', (req,res)=> {
+  res.render('profile');
+});
+
 module.exports = router;

@@ -1,11 +1,13 @@
+<link rel="stylesheet" href="/css/keywords">
+
 {{#each keywords as |keyword|}}
 <br>{{>keyword-layout}}<br>
 {{/each}}
 
 
 
-  <main class="main">
-    <form class="login-section" id="login-form">
+
+    <form class="" id="keyword-form">
       <h1>Add Keyword</h1>
       <div class="field">
         <label class="label">Keyword</label>
@@ -25,12 +27,7 @@
         </div>  
       </div>
       <a href="home"><button id="login-btn">Submit</button></a>
-      <div class="create-forgot">
-        <a href="/register">New? Create an Account</a>
-      </div>
-
     </form>
-  </main>
 
 
   <script src="./js/keywords.js"></script>

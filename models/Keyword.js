@@ -7,7 +7,7 @@ Keyword.init(
   {
     id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
       autoIncrement: true,
       primaryKey: true,
     },

@@ -1,14 +1,14 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
-  const name = document.querySelector('#keyword-name').value.trim();
+  const keyword = document.querySelector('#keyword-name').value.trim();
   const additionalText = document.querySelector('#additional-text').value.trim();
   const statutesUrl = document.querySelector('#statutes-url').value.trim();
 
-  if (name && additionalText && statutesUrl) {
+  if (keyword && additionalText && statutesUrl) {
     const response = await fetch(`/api/keywords`, {
       method: 'POST',
-      body: JSON.stringify({ name, additionalText, statutesUrl }),
+      body: JSON.stringify({ keyword, additionalText, statutesUrl }),
       headers: {
         'Content-Type': 'application/json',
       },
@@ -39,7 +39,7 @@ const delButtonHandler = async (event) => {
 };
 
 document
-  .querySelector('.new-keyword-form')
+  .querySelector('#new-keyword-form')
   .addEventListener('submit', newFormHandler);
 
 document

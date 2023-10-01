@@ -1,33 +1,24 @@
-<link rel="stylesheet" href="/css/keywords">
+<link rel="stylesheet" href="/css/keywords.css">
 
 {{#each keywords as |keyword|}}
 <br>{{>keyword-layout}}<br>
 {{/each}}
 
 
+{{#if logged_in}}
+{{> addKeyword}}
 
-
-    <form class="" id="new-keyword-form">
-      <h1>Add Keyword</h1>
-      <div class="field">
-        <label class="label">Keyword</label>
-        <div class="control">
-          <input class="input" type="text" placeholder="e.g. Dishonest dealings" id="keyword-name">
-        </div>
+{{else}}
+  <section class="keyword-sec">
+    <div>
+      <h2>
+        Add Your Own Keywords
+      </h2>
+      <div class="key-buttons">
+      <a href="login"><button class="button">Log-in</button></a>
+      <a href="register"><button class="button">Create Account</button></a>
       </div>
-      <div class="field">
-        <label class="label">Additional Text</label>
-        <div class="control">
-          <input class="input" type="text" id="additional-text">
-        </div>
-      <div class="field">
-        <label class="label">Statutes URL</label>
-        <div class="control">
-          <input class="input" type="text" id="statutes-url">
-        </div>  
-      </div>
-      <a href="home"><button id="submit-btn">Submit</button></a>
-    </form>
+    </div>
+  </section>
 
-
-  <script src="./js/keywords.js"></script>
+{{/if}}

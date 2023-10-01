@@ -18,7 +18,7 @@ body {
   background-position: center;
   background-attachment: fixed ;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 900px;
 }
 .welcome-box {
   /* border: solid 2px black; */
@@ -34,8 +34,6 @@ body {
     width: 100%;
   }    
 }
-
-
 
 .button {
   border: none !important;
@@ -53,26 +51,4 @@ h1 {
 
 h2 {
   font-size: 32px !important;
-}
-
-.keyword-sec {
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
-  /* padding-top: 120px; */
-  padding-top: 100px;
-  padding-bottom: 100px;
-  text-align: center;
-}
-
-.key-buttons {
-  display: flex;
-  gap:50px;
-  @media screen and (max-width: 650px) {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    gap:0;
-  }
-  
 }

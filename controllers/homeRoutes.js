@@ -6,7 +6,6 @@ router.get('/', async (req, res) => {
   try {
     // Get all keywords from the Keyword table
     const keywordData = await Keyword.findAll();
-    console.log(keywordData);
 
     // Serialize data so the template can read it
     const keywords = keywordData.map((keyword) => keyword.get({ plain: true }));
@@ -19,14 +18,12 @@ router.get('/', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-
 });
 
 router.get('/keywords', async (req, res) => {
   try {
     // Get all keywords from the Keyword table
     const keywordData = await Keyword.findAll();
-    console.log(keywordData);
 
     // Serialize data so the template can read it
     const keywords = keywordData.map((keyword) => keyword.get({ plain: true }));
@@ -79,7 +76,6 @@ router.get('/laws', async (req, res) => {
   try {
     // Get all keywords from the Keyword table
     const keywordData = await Keyword.findAll();
-    console.log(keywordData);
 
     // Serialize data so the template can read it
     const keywords = keywordData.map((keyword) => keyword.get({ plain: true }));

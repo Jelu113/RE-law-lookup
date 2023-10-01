@@ -10,6 +10,10 @@
     </div>
   </section>
 
+{{#if logged_in}}
+{{> addKeyword}}
+
+{{else}}
   <section class="keyword-sec">
     <div>
       <h2>
@@ -21,5 +25,8 @@
       </div>
     </div>
   </section>
+
+{{/if}}
+
 
 </main>

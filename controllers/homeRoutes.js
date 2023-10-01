@@ -94,4 +94,12 @@ router.get('/laws', async (req, res) => {
 
 });
 
+router.get('/profile', (req,res)=> {
+  res.render('profile');
+});
+
+router.get('/profile', (req,res)=> {
+  res.render('profile');
+});
+
 module.exports = router;

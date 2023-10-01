@@ -1,54 +1,19 @@
-{{!-- Body of our HTML Page --}}
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/css/home.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-
-<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="/css/home.css">
 
 <main class="main">
   <section class="welcome-sec">
     <div class="welcome-box">
-    <h1>Administrative Rules</h1>
+    <h1 class="animate__animated animate__jackInTheBox">Administrative Rules</h1>
     <p>Find Laws With Any Keyword</p>
-    <div class="dropdown is-hoverable">
-      <div class="dropdown-trigger">
-        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-          <span>Use The Dropdown</span>
-          <span class="icon is-small">
-            <i class="fas fa-angle-down" aria-hidden="true"></i>
-          </span>
-        </button>
-      </div>
-      <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-        <div class="dropdown-content">
-          {{#each keywords as |keyword|}}
-          <a href="#" class="dropdown-item">
-            {{keyword.keyword}}
-          </a>
-          {{/each}}
-          <hr class="dropdown-divider">
-          <a href="laws" class="dropdown-item">
-            More
-          </a>
-        </div>
-      </div>
-    </div>
+    {{> keyword-dropdown}}
     </div>
   </section>
 
+{{#if logged_in}}
+{{> addKeyword}}
+
+{{else}}
   <section class="keyword-sec">
     <div>
       <h2>
@@ -56,49 +21,12 @@
       </h2>
       <div class="key-buttons">
       <a href="login"><button class="button">Log-in</button></a>
-      <button class="button">Create Account</button>
+      <a href="register"><button class="button">Create Account</button></a>
       </div>
     </div>
   </section>
 
+{{/if}}
+
+
 </main>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{{!-- <!-- Loop over each object in the projects array -->
-{{#each projects as |project| }}
-<div class="row mb-4 project">
-  <div class="col-md-5">
-    <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      {{{get_emoji}}}
-      <a href="/project/{{project.id}}">{{project.name}}</a>
-    </h2>
-    <p>
-      <span for="img" aria-label="money">💲</span>
-      <!-- Pass needed_funding value to the helper function -->
-      <span class="dollar-amount">{{format_amount project.needed_funding}}</span>
-      needed!
-    </p>
-    <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{project.description}}
-    </p>
-  </div>
-</div>
-{{/each}} --}}

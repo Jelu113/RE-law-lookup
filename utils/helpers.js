@@ -1,39 +1,12 @@
+//Handlebars helpers
 module.exports = {
-  format_date: (date) => {
-    // Format date as MM/DD/YYYY
-    return date.toLocaleDateString();
-  },
-  format_amount: (amount) => {
-    // format large numbers with commas
-    return parseInt(amount).toLocaleString();
-  },
-  get_emoji: () => {
-    const randomNum = Math.random();
+//Limited Each loop
+limitedEach(context, iterations, options) {
+    var ret = '';
+    for (var i = 0, j = Math.min(context.length, iterations); i < j; i++) {
+        ret = ret + options.fn(context[i]);
+    }
+    return ret;
+    }
 
-    // Return a random emoji
-    if (randomNum > 0.7) {
-      return `<span for="img" aria-label="lightbulb">💡</span>`;
-    } else if (randomNum > 0.4) {
-      return `<span for="img" aria-label="laptop">💻</span>`;
-    } else {
-      return `<span for="img" aria-label="gear">⚙️</span>`;
-    }
-  },
-  math: {
-    add: (a, b) => {
-      return a + b;
-    },
-    subtract: (a, b) => {
-      return a - b;
-    },
-    multiply: (a, b) => {
-      return a * b;
-    },
-    divide: (a, b) => {
-      return a / b;
-    },
-    remainder: (a, b) => {
-      return a % b;
-    }
-  }
-};
+}

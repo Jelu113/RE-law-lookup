@@ -1,54 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<link rel="stylesheet" href="/css/keywords.css">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/css/login.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <link rel="stylesheet" href="/css/style.css">
+{{#each keywords as |keyword|}}
+<br>{{>keyword-layout}}<br>
+{{/each}}
 
 
-</head>
+{{#if logged_in}}
+{{> addKeyword}}
 
-<body>
-
-
-
-
-  <main class="main">
-    <form class="login-section" id="new-keyword-form">
-      <h1>Add Keyword</h1>
-      <div class="field">
-        <label class="label">Keyword</label>
-        <div class="control">
-          <input class="input" type="text" placeholder="e.g. Dishonest dealings" id="keyword-name">
-        </div>
+{{else}}
+  <section class="keyword-sec">
+    <div>
+      <h2>
+        Add Your Own Keywords
+      </h2>
+      <div class="key-buttons">
+      <a href="login"><button class="button">Log-in</button></a>
+      <a href="register"><button class="button">Create Account</button></a>
       </div>
-      <div class="field">
-        <label class="label">Additional Text</label>
-        <div class="control">
-          <input class="input" type="text" id="additional-text">
-        </div>
-      <div class="field">
-        <label class="label">Statutes URL</label>
-        <div class="control">
-          <input class="input" type="text" id="statutes-url">
-        </div>  
-      </div>
-      <a href="home"><button id="submit-btn">Submit</button></a>
-      <div class="create-forgot">
-        <a href="/register">New? Create an Account</a>
-      </div>
+    </div>
+  </section>
 
-    </form>
-  </main>
-
-
-  <script src="./js/keywords.js"></script>
-
-
-</body>
-
-</html>
+{{/if}}

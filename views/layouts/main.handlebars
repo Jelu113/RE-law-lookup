@@ -7,21 +7,22 @@
   <title>Real Estate Admin Rules</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/img/law-icon.png">
 </head>
 
   <body>
       <header class="">
         <h3>
           <a href="/">
-            <img src="./img/law icon.png"></img><span>Real Estate Admin Rules</span>
+            <img src="/img/law-icon.png"></img><span>Real Estate Admin Rules</span>
           </a>
         </h3>
         <nav>
           <!-- Conditionally render login or logout links -->
-          <a href="/laws">Laws</a>
+          <a href="/keywords">Keywords</a>
           {{#if logged_in}}
           <a href="/profile">profile</a> |
-          <button class="no-button" id="logout">Logout</button>
+          <a id="logout">Logout</a>
           {{else}}
           <a href="/login">Login</a>
           {{/if}}
@@ -32,10 +33,6 @@
         {{{ body }}}
       </main>
 
-
-      <footer>
-      <h1>div</h1>  
-      </footer>
     <!-- Render script for logged in users only -->
     {{#if logged_in}}
     <script src="/js/logout.js"></script>

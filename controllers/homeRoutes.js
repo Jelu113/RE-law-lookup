@@ -58,7 +58,7 @@ router.get('/keywords/:id', async (req, res) => {
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
-    res.redirect('/keywords');
+    res.redirect('/');
     return;
   }
   res.render('login');
@@ -96,6 +96,10 @@ router.get('/profile', (req,res)=> {
 
 router.get('/keywords', (req,res)=> {
   res.render('keywords');
+});
+
+router.get('*', (req, res) => {
+  res.status(404).render('404');
 });
 
 module.exports = router;

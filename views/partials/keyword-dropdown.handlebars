@@ -8,12 +8,12 @@
         </button>
       </div>
       <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-        <div class="dropdown-content">
-          {{#limitedEach keywords 6}}
+        <div class="keywordDropdown dropdown-content">
+          {{#each keywords}}
           <a href="/keywords/{{id}}" class="dropdown-item">
             {{keyword}}
           </a>
-          {{/limitedEach}}
+          {{/each}}
           <hr class="dropdown-divider">
           <a href="laws" class="dropdown-item">
             More

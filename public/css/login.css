@@ -9,12 +9,20 @@
     display: flex;
     justify-content: center !important;
     /* background-color: red; */
-    padding-left: 0px;
-    padding-left: 300px;
-    
   }
 }
 
+
+#login-form {
+  border: solid 3px rgb(176, 176, 176) ;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  #login-form {
+    border: none !important;
+  }
+}
 
 
 h1 {

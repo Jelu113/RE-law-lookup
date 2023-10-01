@@ -1,19 +1,53 @@
 
 
 .forms {
-  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+@media screen and (max-width: 800px) {
+  .forms {
+    /* background-color: red; */
+    margin-bottom: 50px;
+    width: 80vw;
+  }
+}
+
+
+.section-title{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .section-title h2{
+    /* background-color: blue; */
+    font-size: 28px !important;
+    text-align: center;
+  }
 }
 
 .field-container {
   display: flex;
   justify-content: center;
-  height: 1000px;
-}
+  align-items: center;
+  margin-top: 20px;
 
-.control {
-  /* height: 20px; */
 }
-
+/* 
 button {
   margin-bottom: 25px !important;
+} */
+
+
+.addkw-btn {
+  border: none !important;
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: rgb(167, 167, 193) !important;
 }

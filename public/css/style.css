@@ -29,6 +29,14 @@ header {
   }
 }
 
+@media screen and (max-width:800px){
+  header span {
+    /* background-color: green; */
+    font-size: 20px !important;
+  }
+}
+
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -36,14 +44,17 @@ nav {
   @media screen and (max-width: 1000px) {
     justify-content: flex-end;
   }
-  
 }
 
 nav a {
   margin-left: 3%;
-  font-size: 1.3rem;
-  @media screen and (max-width: 1000px) {
+  /* font-size: 1.3rem; */
+  font-size: 20px !important;
+  /* background-color: red; */
+  @media screen and (max-width: 800px) {
     margin-right: 20%;
+    /* background-color: green; */
+    font-size: 14px !important;
   }
 }
 
@@ -65,6 +76,8 @@ header h3 a, header nav a {
   }
 
 }
+
+
 
 /* Main */
 main {

@@ -25,11 +25,24 @@ const newFormHandler = async (event) => {
 // const delButtonHandler = async (event) => {
 //   if (event.target.hasAttribute('data-id')) {
 //     const id = event.target.getAttribute('data-id');
+// const delButtonHandler = async (event) => {
+//   if (event.target.hasAttribute('data-id')) {
+//     const id = event.target.getAttribute('data-id');
 
 //     const response = await fetch(`/api/keywords/${id}`, {
 //       method: 'DELETE',
 //     });
+//     const response = await fetch(`/api/keywords/${id}`, {
+//       method: 'DELETE',
+//     });
 
+//     if (response.ok) {
+//       document.location.replace('/keywords');
+//     } else {
+//       alert('Failed to delete project');
+//     }
+//   }
+// };
 //     if (response.ok) {
 //       document.location.replace('/keywords');
 //     } else {
@@ -42,7 +55,6 @@ document
   .querySelector('#new-keyword-form')
   .addEventListener('click', newFormHandler);
 
-document
-  .querySelector('.keyword-list')
-  // .addEventListener('click', delButtonHandler);
-
+// document
+//   .querySelector('.keyword-list')
+//   .addEventListener('click', delButtonHandler);

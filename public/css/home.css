@@ -2,6 +2,11 @@ body {
   overflow-y: hidden;
 }
 
+form {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
 .main{
   display: flex;
   justify-content: center;

@@ -15,7 +15,7 @@ const loginFormHandler = async (event) => {
 
     if (response.ok) {
       // If successful, redirect the browser to the keywords page
-      document.location.replace('/keywords');
+      document.location.replace('/');
     } else {
       alert(response.statusText);
     }

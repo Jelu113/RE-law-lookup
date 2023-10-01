@@ -1,7 +1,7 @@
 {
   "name": "crowd-funding",
   "version": "1.0.0",
-  "description": "",
+  "description": "-[Description](#description)   -[Installation](#installation)   -[Usage](#usage)   -[Credits](#credits)   -[License](#license)   -[Badges](#badges)   -[Features](#features)   -[How to contribute](#contribute)   -[Tests](#tests)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

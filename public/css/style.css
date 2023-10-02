@@ -27,14 +27,9 @@ header {
     flex-direction: column;
     align-items: end;
   }
+    
 }
 
-@media screen and (max-width:800px){
-  header span {
-    /* background-color: green; */
-    font-size: 20px !important;
-  }
-}
 
 
 nav {
@@ -48,13 +43,9 @@ nav {
 
 nav a {
   margin-left: 3%;
-  /* font-size: 1.3rem; */
-  font-size: 20px !important;
-  /* background-color: red; */
+  font-size: 1.3rem;
   @media screen and (max-width: 800px) {
     margin-right: 20%;
-    /* background-color: green; */
-    font-size: 14px !important;
   }
 }
 
@@ -74,9 +65,11 @@ header h3 a, header nav a {
   &:hover {
     color: var(--link-hover-color);
   }
-
+  @media screen and (max-width: 400px) {
+    font-size: 1.4rem;
+  }
+    
 }
-
 
 
 /* Main */

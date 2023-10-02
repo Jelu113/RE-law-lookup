@@ -44,9 +44,7 @@ nav {
 nav a {
   margin-left: 3%;
   font-size: 1.3rem;
-  @media screen and (max-width: 800px) {
-    margin-right: 20%;
-  }
+  margin-right: 20%;
 }
 
 header h3 a img {

@@ -12,9 +12,10 @@ const signupFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('/profile');
+        document.location.replace('/');
       } else {
         alert(response.statusText);
+        console.log("error");
       }
     }
 };

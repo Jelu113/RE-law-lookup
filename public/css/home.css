@@ -23,7 +23,7 @@ form {
   background-position: center;
   background-attachment: fixed ;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 800px;
 }
 .welcome-box {
   /* border: solid 2px black; */
@@ -74,6 +74,10 @@ h2 {
 
 
 @media screen and (max-width: 800px) {
+  .welcome-sec {
+    height: 500px;
+  }
+
   #new-keyword-form {
     /* background-color: green; */
     width: 90vw!important;

@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-  --nav-color: #333;
+  --dark-color: #333;
   --link-hover-color: lightblue;
   --nav-text-color: #1a89bc;
   --main-background-color: #fff;
@@ -15,26 +15,21 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: var(--nav-color);
+  background-color: var(--dark-color);
   user-select: none;
   text-decoration: none;
   height: 60px;
   position: sticky;
   top: 0;
   z-index: 1;
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 650px) {
     height: 100px;
     flex-direction: column;
     align-items: end;
   }
+    
 }
 
-@media screen and (max-width:800px){
-  header span {
-    /* background-color: green; */
-    font-size: 20px !important;
-  }
-}
 
 
 nav {
@@ -48,13 +43,9 @@ nav {
 
 nav a {
   margin-left: 3%;
-  /* font-size: 1.3rem; */
-  font-size: 20px !important;
-  /* background-color: red; */
+  font-size: 1.3rem;
   @media screen and (max-width: 800px) {
     margin-right: 20%;
-    /* background-color: green; */
-    font-size: 14px !important;
   }
 }
 
@@ -74,9 +65,11 @@ header h3 a, header nav a {
   &:hover {
     color: var(--link-hover-color);
   }
-
+  @media screen and (max-width: 400px) {
+    font-size: 1.4rem;
+  }
+    
 }
-
 
 
 /* Main */
@@ -100,12 +93,38 @@ form {
   padding: 100px;
 }
 
-.keywordInfo {
-  margin-left: 10px;
-  font: 1.2rem 'Roboto', sans-serif;
+.keywordHolder {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
+.keywordInfo {
+  font: 1.2rem 'Roboto', sans-serif;
+  color: lightgrey;
+  width: 31%;
+  height: 25vh;
+  min-height: 350px;
+  min-width: 425px;
+  margin: 1%;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: var(--dark-color);
+  box-shadow: 0 0 15px grey;
+
+  & div {
+    margin-left: 10px;
+  }
+  & a:hover {
+    color: lightblue;
+  }
+}
+
+
 .kwLabel {
+  color: white;
+  font-size: 1.5rem;
   font-weight: bold;
   user-select: none;
 }

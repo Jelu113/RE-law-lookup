@@ -1,23 +1,23 @@
-    <div class="dropdown is-hoverable">
-      <div class="dropdown-trigger">
-        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-          <span>Choose a Keyword</span>
-          <span class="icon is-small">
-            <i class="fas fa-angle-down" aria-hidden="true"></i>
-          </span>
-        </button>
-      </div>
-      <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-        <div class="keywordDropdown dropdown-content">
-          {{#each keywords}}
-          <a href="/keywords/{{id}}" class="dropdown-item">
-            {{keyword}}
-          </a>
-          {{/each}}
-          <hr class="dropdown-divider">
-          <a href="laws" class="dropdown-item">
-            More
-          </a>
-        </div>
-      </div>
+<div class="dropdown is-hoverable">
+  <div class="dropdown-trigger">
+    <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+      <span>Choose a Keyword</span>
+      <span class="icon is-small">
+        <i class="fas fa-angle-down" aria-hidden="true"></i>
+      </span>
+    </button>
+  </div>
+  <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+    <div class="keywordDropdown dropdown-content">
+      {{#each (sortedKeywords keywords)}}
+      <a href="/keywords/{{id}}" class="dropdown-item">
+        {{keyword}}
+      </a>
+      {{/each}}
+      <hr class="dropdown-divider">
+      <a href="laws" class="dropdown-item">
+        More
+      </a>
     </div>
+  </div>
+</div>

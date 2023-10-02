@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const { log } = require('console');
 const { User } = require('../../models');
 
 router.post('/', async (req, res) => {
@@ -13,6 +14,7 @@ router.post('/', async (req, res) => {
     });
   } catch (err) {
     res.status(400).json(err);
+    log(err);
   }
 });
 

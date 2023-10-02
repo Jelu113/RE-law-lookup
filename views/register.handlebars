@@ -1,48 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<link rel="stylesheet" href="/css/login.css">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/css/login.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <link rel="stylesheet" href="/css/style.css">
-
-
-</head>
-
-<body>
-
-
-
-
-  <main class="main">
-    <section class="login-section">
-      <h1>Create an Account</h1>
+<main class="main">
+  <section class="login-section">
+    <form class="form signup-form">
+      <h1>Register</h1>
       <div class="field">
-        <label class="label">Email</label>
-        <div class="control">
-          <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
-        </div>
+        <label class="label" for="email-signup">Email:</label>
+        <input class="input" type="text" id="email-signup" />
       </div>
       <div class="field">
-        <label class="label">Password</label>
-        <div class="control">
-          <input class="input" type="password">
-        </div>
+        <label class="label" for="password-signup">Password:</label>
+        <input class="input" type="password" id="password-signup" />
       </div>
-      <button id="login-btn">
-        Register
-      </button>
+      <div class="field">
+        <button class="submit-btn" type="submit">Register</button>
+      </div>
+    </form>
 
-    </section>
-  </main>
-
-
-  <script src="./js/login.js"></script>
+  </section>
+</main>
 
 
-</body>
-
-</html>
+<script src="./js/register.js"></script>

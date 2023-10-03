@@ -173,3 +173,24 @@ form {
   height: 350px;
   overflow-y: scroll;
 }
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-left: 75%;
+  margin-top: 5%;
+  &:hover {
+    background-color: grey;
+    color: white;
+  }
+  &:active {
+    background-color: black;
+    color: white;
+  }
+}

@@ -7,4 +7,7 @@
         <span class="kwLabel">Additional Text: </span><br>{{this.additionalText}}<br><br>
         <span class="kwLabel">Statutes URL: </span><br><a target="_blank" href="{{this.statutesUrl}}">{{this.statutesUrl}}</a>
     </div>
+        {{#if logged_in}}
+            <button data-id='{{this.id}}' class="deleteButton" type="submit">Delete</button>
+        {{/if}}
 </div>
